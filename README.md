@@ -5,7 +5,7 @@ PyAlgoTrade3
 [![Coverage Status](https://coveralls.io/repos/gbeced/pyalgotrade/badge.svg?branch=master)](https://coveralls.io/r/gbeced/pyalgotrade?branch=master)
 
 
-This resposity is based on [pyalgotrade](https://github.com/gbeced/pyalgotrade). PyAlgoTrade3 is an **event driven algorithmic trading** Python3 library.  Although the initial focus
+This repository is based on [pyalgotrade](https://github.com/gbeced/pyalgotrade). PyAlgoTrade3 is an **event driven algorithmic trading** Python3 library.  Although the initial focus
 was on **backtesting**, **paper trading** is now possible using:
 
  * [Bitstamp](https://www.bitstamp.net/) for Bitcoins
