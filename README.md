@@ -5,7 +5,7 @@ PyAlgoTrade
 [![Coverage Status](https://coveralls.io/repos/gbeced/pyalgotrade/badge.svg?branch=master)](https://coveralls.io/r/gbeced/pyalgotrade?branch=master)
 
 
-PyAlgoTrade is an **event driven algorithmic trading** Python library. Although the initial focus
+This resposity is based on [pyalgotrade](https://github.com/gbeced/pyalgotrade). PyAlgoTrade3 is an **event driven algorithmic trading** Python3 library.  Although the initial focus
 was on **backtesting**, **paper trading** is now possible using:
 
  * [Bitstamp](https://www.bitstamp.net/) for Bitcoins
@@ -14,7 +14,7 @@ and **live trading** is now possible using:
 
  * [Bitstamp](https://www.bitstamp.net/) for Bitcoins
 
-To get started with PyAlgoTrade take a look at the [tutorial](http://gbeced.github.io/pyalgotrade/docs/v0.18/html/tutorial.html) and the [full documentation](http://gbeced.github.io/pyalgotrade/docs/v0.18/html/index.html).
+To get started with PyAlgoTrade3 take a look at the [tutorial](http://gbeced.github.io/pyalgotrade/docs/v0.18/html/tutorial.html) and the [full documentation](http://gbeced.github.io/pyalgotrade/docs/v0.18/html/index.html).
 
 Main Features
 -------------
@@ -32,7 +32,7 @@ Main Features
 Installation
 ------------
 
-PyAlgoTrade is developed using Python 2.7 and depends on:
+PyAlgoTrade3 is developed using Python 3 and depends on:
 
  * [NumPy and SciPy](http://numpy.scipy.org/).
  * [pytz](http://pytz.sourceforge.net/).
@@ -43,8 +43,4 @@ PyAlgoTrade is developed using Python 2.7 and depends on:
  * [tornado](http://www.tornadoweb.org/en/stable/) for Bitstamp support.
  * [tweepy](https://github.com/tweepy/tweepy) for Twitter support.
 
-You can install PyAlgoTrade using pip like this:
 
-```
-pip install pyalgotrade
-```
