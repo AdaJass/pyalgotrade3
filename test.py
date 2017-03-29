@@ -54,9 +54,9 @@ def run_strategy(smaPeriod):
     myStrategy.run()
     print(("Final portfolio value: $%.2f" % myStrategy.getBroker().getEquity()))
 
-run_strategy(15)
-# import datetime
-# datetime.date(2008, 1, 1)
-# datetime.now()
-# url = "http://ichart.finance.yahoo.com/table.csv?s=%s&a=%d&b=%d&c=%d&d=%d&e=%d&f=%d&g=%s&ignore=.csv" % ('orcl', begin.month, begin.day, begin.year, end.month, end.day, end.year, frequency)
-# print(url)
+# run_strategy(15)
+import datetime
+begin=datetime.date(2008, 1, 1)
+end=datetime.date(2015,12,31)
+url = "http://ichart.finance.yahoo.com/table.csv?s=%s&a=%d&b=%d&c=%d&d=%d&e=%d&f=%d&g=%s&ignore=.csv" % ('orcl', begin.month, begin.day, begin.year, end.month, end.day, end.year, 'd')
+print(url)
