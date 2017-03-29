@@ -52,6 +52,11 @@ def run_strategy(smaPeriod):
     # Evaluate the strategy with the feed.
     myStrategy = MyStrategy(feed, "orcl", smaPeriod)
     myStrategy.run()
-    print("Final portfolio value: $%.2f" % myStrategy.getBroker().getEquity())
+    print(("Final portfolio value: $%.2f" % myStrategy.getBroker().getEquity()))
 
 run_strategy(15)
+# import datetime
+# datetime.date(2008, 1, 1)
+# datetime.now()
+# url = "http://ichart.finance.yahoo.com/table.csv?s=%s&a=%d&b=%d&c=%d&d=%d&e=%d&f=%d&g=%s&ignore=.csv" % ('orcl', begin.month, begin.day, begin.year, end.month, end.day, end.year, frequency)
+# print(url)
