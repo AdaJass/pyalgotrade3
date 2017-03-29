@@ -1,4 +1,4 @@
-PyAlgoTrade
+PyAlgoTrade3
 ===========
 
 [![Build Status](https://travis-ci.org/gbeced/pyalgotrade.png?branch=master)](https://travis-ci.org/gbeced/pyalgotrade)
